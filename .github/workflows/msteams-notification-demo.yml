@@ -18,8 +18,7 @@ jobs:
     steps:
       - name: Build job 2
         run: |
-          echo "Simulating a failure of build job 2"
-          exit 1
+          echo "Simulating a build job 2"
           
   build-3:
     runs-on: ubuntu-latest
